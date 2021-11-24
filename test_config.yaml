@@ -1,0 +1,8 @@
+imports:
+- path: testlink.jinja
+
+resources:
+- name: testlink
+  type: testlink.jinja
+  properties:
+    zone: us-central1-f

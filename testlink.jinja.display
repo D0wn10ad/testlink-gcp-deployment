@@ -1,0 +1,263 @@
+description:
+  author:
+    title: Bitnami
+    descriptionHtml: Bitnami is a library of popular server applications and development environments that can be installed in a single click, either on your laptop, in a virtual machine, or hosted in the cloud. With over a million deployments each month, Bitnami.com has become a leading source of many of today's most popular applications. Bitnami-packaged apps provide a consistent, secure and up-to-date, optimized end user experience on any platform. We take care of compiling and configuring the application and all of its dependencies (third party libraries, language run times, databases) so it works out of the box. The company is also the largest source of applications for the leading cloud marketplaces. Bitnami is headquartered in San Francisco, CA and has a major development center in Seville, Spain. For more information, visit www.bitnami.com, or follow us on Twitter (@bitnami) and Facebook
+    shortDescription: Bitnami provides a catalog of over 120 curated server applications and development environments that can be installed with one click, either locally, in a VM, or in the cloud.  Bitnami apps work out of the box, with no dependency or compiling worries, and regularly updated images.
+    url: http://bitnami.com
+  descriptionHtml: '<p>TestLink is test management software that facilitates software quality assurance. It suppors test cases, test suites, test plans, test projects and user management, and stats reporting.</p> <p>Trademarks: This software listing is packaged by Bitnami. The respective trademarks mentioned in the offering are owned by the respective companies, and use of them does not imply any affiliation or endorsement.</p>  <p>Why use Bitnami Certified Apps?</p> <p>Bitnami certifies that our images are secure, up-to-date, and packaged using industry best practices.</p> <p>With Bitnami, you can trust what is in the app you''re launching. We monitor all the applications we package for vulnerabilities, outdated components and libraries, and application updates. When any of these are identified, we patch and release every affected listing within a couple of days.</p>'
+  logo: '@media/testlink_store.png'
+  tagline: Up-to-date, secure, and ready to run.
+  title: TestLink packaged by Bitnami
+  url: https://bitnami.com/stack/testlink
+  version: 1.9.20-82-r73
+  eulaUrl: https://bitnami.com/agreement
+  softwareGroups:
+  - type: SOFTWARE_GROUP_OS
+    software:
+    - title: Debian
+      version: '10'
+  - software:
+    - title: MariaDB
+      version: 10.3.32
+      licenseTitle: GPL2
+      licenseUrl: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+    - title: Apache Portable Runtime (APR)
+      version: 1.7.0
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: Apache utilities (APR)
+      version: 1.6.1
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: Apache
+      version: 2.4.51
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: ModSecurity
+      version: 3.0.5
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: ModSecurity Apache Connector
+      version: 0.20210819.0
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: mod_pagespeed library
+      version: 1.13.35-2
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: mod_pagespeed_ap24 library
+      version: 1.13.35-2
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: Apache PageSpeed Module
+      version: 1.13.35-2
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: gosu
+      version: 1.14.0
+      licenseTitle: GPL3
+      licenseUrl: https://www.gnu.org/licenses/gpl-3.0.txt
+    - title: IMAP
+      version: 2007.0.0
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: PECL APC User Cache
+      version: 5.1.21
+      licenseTitle: PHP3
+      licenseUrl: http://opensource.org/licenses/PHP-3.0
+    - title: PHP
+      version: 7.4.26
+      licenseTitle: PHP
+      licenseUrl: http://opensource.org/licenses/PHP-3.0
+    - title: PECL PHP driver for Mcrypt
+      version: 1.0.4
+      licenseTitle: PHP3
+      licenseUrl: http://opensource.org/licenses/PHP-3.0
+    - title: PECL PHP driver for Imagick
+      version: 3.6.0
+      licenseTitle: PHP
+      licenseUrl: http://opensource.org/licenses/PHP-3.0
+    - title: libmemcached
+      version: 3.1.5
+      licenseTitle: PHP3
+      licenseUrl: http://opensource.org/licenses/PHP-3.0
+    - title: libmaxminddb
+      version: 1.6.0
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: MaxMind DB Reader PHP API
+      version: 1.11.0
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: PECL PHP driver for MongoDB
+      version: 1.11.1
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: PECL PHP driver for Xdebug
+      version: 3.1.1
+      licenseTitle: BSD-Style
+      licenseUrl: http://opensource.org/licenses/BSD-3-Clause
+    - title: Composer
+      version: 2.1.12
+      licenseTitle: MIT
+      licenseUrl: http://opensource.org/licenses/MIT
+    - title: phpMyAdmin
+      version: 5.1.1
+      licenseTitle: GPL2
+      licenseUrl: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+    - title: Bncert Tool
+      version: 0.7.1
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: Bndiagnostic Tool
+      version: 0.9.15
+      licenseTitle: APACHE2
+      licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.txt
+    - title: Gonit
+      version: 0.2.5
+      licenseTitle: GPL2
+      licenseUrl: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+    - title: TestLink
+      version: 1.9.20
+      licenseTitle: GPL2
+      licenseUrl: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+    - title: ini-file
+      version: 1.4.1
+      licenseTitle: GPL2
+      licenseUrl: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+    - title: render-template
+      version: 1.0.1
+      licenseTitle: GPL2
+      licenseUrl: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+  documentations:
+  - title: Getting Started
+    url: https://docs.bitnami.com/google/apps/testlink/
+    description: Get started with TestLink packaged by Bitnami.
+    destinations:
+    - DESTINATION_POST_DEPLOY
+  support:
+  - title: Support
+    descriptionHtml: Bitnami provides technical support for installation and setup issues through <a href="https://bitnami.com/support/google">our support center</a>.
+    url: https://bitnami.com/support/google
+  icon: '@media/testlink_small.png'
+
+input:
+  properties:
+    - name: zone
+      title: Zone
+    - name: machineType
+      title: Machine type
+    - name: bootDiskType
+      title: Boot disk type
+      section: BOOT_DISK
+    - name: bootDiskSizeGb
+      title: Boot disk size in GB
+      section: BOOT_DISK
+    - name: network
+      title: Network name
+      section: NETWORKING
+    - name: subnetwork
+      title: Subnetwork name
+      section: NETWORKING
+    - name: externalIP
+      title: External IP
+      tooltip: 'An external IP address associated with this instance. Selecting "None" will result in the instance having no external internet access. <a href="https://cloud.google.com/compute/docs/configure-instance-ip-addresses">Learn more</a>'
+      section: NETWORKING
+    - name: enableTcp80
+      title: Allow HTTP traffic from the Internet
+      section: NETWORKING
+    - name: tcp80SourceRanges
+      title: Source IP ranges for HTTP traffic
+      tooltip: 'Traffic is only allowed from sources within these IP address ranges. Use CIDR notation when entering ranges. <a href="https://cloud.google.com/compute/docs/networking#firewalls">Learn more</a>'
+      placeholder: '0.0.0.0/0, 192.169.0.2/24'
+      section: NETWORKING
+    - name: enableTcp443
+      title: Allow HTTPS traffic from the Internet
+      section: NETWORKING
+    - name: tcp443SourceRanges
+      title: Source IP ranges for HTTPS traffic
+      tooltip: 'Traffic is only allowed from sources within these IP address ranges. Use CIDR notation when entering ranges. <a href="https://cloud.google.com/compute/docs/networking#firewalls">Learn more</a>'
+      placeholder: '0.0.0.0/0, 192.169.0.2/24'
+      section: NETWORKING
+  sections:
+    - name: BOOT_DISK
+      title: Boot Disk
+      tooltip: Each instance requires a disk to boot from.
+    - name: NETWORKING
+      title: Networking
+
+runtime:
+  deployingMessage: Deployment can take several minutes to complete.
+  applicationTable:
+    rows:
+      - label: Site address
+        value: <a href="http://{{ externalIp(outputs().vmSelfLink) }}/">http://{{ externalIp(outputs().vmSelfLink) }}/</a>
+        showIf: '{{ outputs().hasExternalIP }}'
+      - label: Site address (internal IP)
+        value: http://{{ outputs().vmInternalIP }}/
+        showIf: '{{ !outputs().hasExternalIP }}'
+      - label: Admin user
+        value: user
+      - label: Admin password (Temporary)
+        value: '{{ outputs().password0 }}'
+      - label: Instance
+        value: '<a href="{{ consoleUrl(outputs().vmSelfLink) }}">{{ outputs().vmName }}</a>'
+      - label: Instance zone
+        value: '{{ properties().zone }}'
+      - label: Instance machine type
+        value: '{{ properties().machineType }}'
+  primaryButton:
+    label: Visit the site
+    type: TYPE_URL
+    action: http://{{ externalIp(outputs().vmSelfLink) }}/
+  secondaryButton:
+    label: SSH
+    type: TYPE_GCE_VM_SSH
+    action: '{{ outputs().vmSelfLink }}'
+  suggestedActions:
+    - heading: No external IP configured
+      description: 'The VM instance has been configured with no external IP or internet access. Connecting to it directly may not be possible. Consider using a <a href="https://cloud.google.com/compute/docs/instances/connecting-advanced#bastion_host">bastion host</a> to access this VM.'
+      showIf: '{{ !outputs().hasExternalIP }}'
+    - heading: Open HTTP traffic
+      description: >-
+        This firewall rule is not enabled.
+        To allow specific network traffic from the Internet,
+        create a firewall rule to open HTTP traffic
+        for target tag "{{ outputs().deployment }}-deployment".
+        <a href="https://cloud.google.com/compute/docs/networking">Learn more</a><br>
+        If you are using Google Cloud SDK, type the following command in
+        the terminal:
+      snippet: >-
+        gcloud --project={{ outputs().project }} compute firewall-rules
+        create "{{ outputs().deployment }}-tcp-80"
+        --network {{ outputs().mainNetwork }}
+        --allow tcp:80
+        --target-tags "{{ outputs().deployment }}-deployment"
+      showIf: '{{ !properties().enableTcp80 }}'
+    - heading: Open HTTPS traffic
+      description: >-
+        This firewall rule is not enabled.
+        To allow specific network traffic from the Internet,
+        create a firewall rule to open HTTPS traffic
+        for target tag "{{ outputs().deployment }}-deployment".
+        <a href="https://cloud.google.com/compute/docs/networking">Learn more</a><br>
+        If you are using Google Cloud SDK, type the following command in
+        the terminal:
+      snippet: >-
+        gcloud --project={{ outputs().project }} compute firewall-rules
+        create "{{ outputs().deployment }}-tcp-443"
+        --network {{ outputs().mainNetwork }}
+        --allow tcp:443
+        --target-tags "{{ outputs().deployment }}-deployment"
+      showIf: '{{ !properties().enableTcp443 }}'
+    - heading: Change the temporary password
+      description: For additional security, it is recommended that you change the password.
+    - heading: Assign a static external IP address to your VM instance
+      description: 'An ephemeral external IP address has been assigned to the VM instance. If you require a static external IP address, you may promote the address to static. <a href="https://cloud.google.com/compute/docs/instances-and-network#promote_ephemeral_ip">Learn more</a>'
+      showIf: '{{ outputs().hasExternalIP }}'
+
+annotations:
+  autogenSpecType: 'SINGLE_VM'
+  vmImage0: https://www.googleapis.com/compute/v1/projects/bitnami-launchpad/global/images/bitnami-testlink-1-9-20-82-r73-linux-debian-10-x86-64-nami
+
+metadata_version: v1

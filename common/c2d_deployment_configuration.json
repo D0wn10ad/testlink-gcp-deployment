@@ -1,0 +1,7 @@
+{
+  "defaultDeploymentType": "SINGLE_VM",
+  "imageName": "bitnami-testlink-1-9-20-82-r73-linux-debian-10-x86-64-nami",
+  "projectId": "bitnami-launchpad",
+  "templateName": "nonexistent_template",
+  "useSolutionPackage": true
+}
