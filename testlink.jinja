@@ -78,7 +78,7 @@ resources:
   - name: software-status
     type: software_status.py
     properties:
-      timeout: 3600
+      timeout: 5000
       waiterDependsOn:
         - {{ instanceName }}
   - name: software-status-script
